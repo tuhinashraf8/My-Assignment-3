@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="bg-stone-100">
-      <section class="container mx-auto">
+      <section class="max-w-6xl mx-auto">
         <nav>
           <div class="navbar">
               <div class="navbar-start">
@@ -20,7 +20,7 @@
                 <a class="btn pl-1 btn-ghost text-4xl">Rinterio</a>
               </div>
               <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-xl text-slate-700 space-x-11">
+                <ul class="menu menu-horizontal px-1 text-xl text-slate-700">
                   <li class=" hover:text-slate-900 hover:font-bold duration-300"><a>home</a></li>
                   <li class=" hover:text-slate-900 hover:font-bold duration-300"><a>Service</a></li>
                   <li class=" hover:text-slate-900 hover:font-bold duration-300"><a>Portfolio</a></li>
@@ -29,11 +29,12 @@
                 </ul>
               </div>
               <div class="navbar-end  lg:space-x-5">
-                  <div class="hidden lg:inline-block">
+                  <div class="hidden lg:inline-block lg:flex gap-2">
                       <button class="btn  rounded-full bg-white "><i class="fa-solid fa-magnifying-glass opacity-70"></i></button>
                       <button class="btn rounded-full bg-white "><i class="fa-solid fa-cart-shopping"></i></button>
+                      <button class="btn hidden lg:flex bg-[#ABEF5F] text-lg font-extrabold rounded-3xl">Book Consult <div class="bg-black w-8 h-8 rounded-full flex justify-center items-center -rotate-45 text-white"><a href=""><i class="fa-solid fa-arrow-right"></i></a></div></button> 
                   </div>
-                  <button class="btn hidden lg:flex bg-[#ABEF5F] text-lg font-extrabold rounded-3xl">Book Consult <div class="bg-black w-8 h-8 rounded-full flex justify-center items-center -rotate-45 text-white"><a href=""><i class="fa-solid fa-arrow-right"></i></a></div></button>  
+                   
               </div>
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
@@ -55,7 +56,7 @@
 
       </section>
       <!-- start header banner section -->
-       <section class="container mx-auto">
+       <section class="max-w-6xl mx-auto">
         <div class="hero">
           <div class="hero-content text-center flex-col">
             <img src="./assets/banner.png" alt="">
@@ -69,10 +70,59 @@
           </div>
         </div>
        </section>
-        
-
     </header>
     <main>
+      <section class="bg-slate-300">
+        <div class="pt-10">
+          <img class="ml-80 hidden lg:inline-block" src="./assets/Vector.png" alt="">
+        <div class="max-w-6xl mx-auto">
+          <div class="lg:flex ">
+            <div class="lg:w-2/4 flex gap-4 flex-col lg:justify-around m-3">
+              <button class="bg-white px-3 py-1 rounded-2xl font-bold w-40 text-slate-600 mx-auto lg:ml-1"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+              <div class="text-center lg:text-left space-y-3">
+                <h1 class="font-bold text-3xl lg:text-5xl">We design thoughtful,<br>liveable spaces</h1>
+                <p>The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              </div>
+              <div >
+                <div class="hero bg-white rounded-2xl">
+                  <div class="hero-content flex-row">
+                    <img
+                      src="./assets/commercial.png"
+                      class="" />
+                    <div>
+                      <h1 class="text-2xl font-bold">Commercial</h1>
+                      <p class="py-3">
+                        The barn house captivates with its blend of rustic charm and modern.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="hero bg-white rounded-2xl">
+                  <div class="hero-content flex-row">
+                    <img
+                      src="./assets/commercial.png"
+                      class="" />
+                    <div>
+                      <h1 class="text-2xl font-bold">Residential</h1>
+                      <p class="py-3">
+                        The barn house captivates with its blend of rustic charm and modern.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-2/4 m-3">
+              <img src="./assets/Rectangle.png" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </section>
 
     </main>
     <footer>
